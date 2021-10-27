@@ -1,6 +1,5 @@
 trait Function1[+A, +B] {
   def add(x: Int,y:Int):Int
-  //def sumOfList(list: List[Int]):List[Int]
 }
 object fun {
   val addition: Function1[Int, Int] = new Function1[Int,Int] {
